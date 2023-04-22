@@ -20,7 +20,7 @@ public class Question2
 
     double bmi = weight / (height * height);
         
-    System.out.printf("Your BMI is %.2f%n", bmi);
+    System.out.print( bmi);
 
     in.close(); // close the scanner
 
