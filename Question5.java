@@ -29,14 +29,14 @@ public class Question5
     Scanner in = new Scanner(System.in);
     
     // Prompt the user for the number of integers to enter
-    System.out.print("Enter the number of integers: ");
+    //System.out.print("Enter the number of integers: ");
     int input = in.nextInt();
 
     // Read in the set of integers
     int[] ints = new int[input];
     for (int i = 0; i < input; i++) 
     {
-        System.out.print("Enter an integer: ");
+        //System.out.print("Enter an integer: ");
         ints[i] = in.nextInt();
     }
 
@@ -62,7 +62,7 @@ public class Question5
     }
     
     // Print out the mode
-    System.out.println("The mode is: " + mode);
+    System.out.println(mode);
     
     in.close();
 
